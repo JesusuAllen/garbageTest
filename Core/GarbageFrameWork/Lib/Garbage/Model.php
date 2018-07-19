@@ -11,12 +11,8 @@ class Model extends \PDO{
 
     public function __construct()
     {
-        $dsn = 'mysql:host=116.62.217.19;dbname=test';
-        $username = 'root';
-        $passwd = 'root123456';
-
         try {
-            parent::__construct($dsn, $username, $passwd);
+            parent::__construct(conf('dsn'), conf('username'), conf('password'));
         } catch (\PDOException $e) {
             p($e->getMessage());exit;
         }

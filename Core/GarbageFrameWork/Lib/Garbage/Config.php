@@ -45,6 +45,12 @@ class Config{
     }
 
 
+    /**
+     * 获取/修改配置文件字段
+     * @param $field 字段名
+     * @param $value 字段值
+     * @return mixed
+     */
     public function config($field=null, $value=null){
 
         if( is_null($field) ) return self::$configArr;
@@ -52,7 +58,7 @@ class Config{
         foreach ( self::$configArr as $cak => $cav ){
 
             foreach ( $cav as $ck => $cv ){
-
+                //配置中字段
                 if ( isset($cv[$field]) ) {
                     if ( is_null($value) ){
                         //读

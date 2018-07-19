@@ -53,6 +53,12 @@
     }
 
 
+    /**
+     * 获取/修改配置文件字段
+     * @param $field 字段名
+     * @param $value 字段值
+     * @return mixed
+     */
     function conf($field=null, $value=null){
 
         $config = new \Core\GarbageFrameWork\Lib\Garbage\Config();
