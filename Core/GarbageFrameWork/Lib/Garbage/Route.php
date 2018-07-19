@@ -73,7 +73,7 @@ class Route{
             $this->ctrl   = APP_DEF_CTRL;
             $this->func   = APP_DEF_FUNC;
         }
-
+        //转换首字母大写
         define('APP_CURRENT_MODULE', ucfirst($this->module));
     }
 
@@ -81,6 +81,7 @@ class Route{
     //访问
     function access(){
 
+        //拼接路径，首字母大写
         $ctrlClass = '\\' . APP_FILE_NAME . '\\' . ucfirst($this->module) . '\\' . APP_CTRL_NAME . '\\' . ucfirst($this->ctrl) . APP_CTRL_NAME;
 
         //实例化控制器
