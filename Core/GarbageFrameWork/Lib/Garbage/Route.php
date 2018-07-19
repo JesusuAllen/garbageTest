@@ -19,7 +19,7 @@ class Route{
 
         if( isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] != '/'  ){
 
-            $clonePathArr = $pathArr = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
+            $clonePathArr = $pathArr =explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 
             //获取应用目录下的所有模块目录名
             $pathList = scandir(APP_PATH);
@@ -32,7 +32,7 @@ class Route{
                 //遍历一个个判断传入的参数是否有模块名
                 $cPathArr = count($pathArr);
                 for ( $i=0; $i < $cPathArr; $i ++ ){
-                    if( in_array($pathArr[$i], $pathList) ) break;
+                    if( in_array(ucfirst($pathArr[$i]), $pathList) ) break;
                     unset($pathArr[$i]);
                 }
 

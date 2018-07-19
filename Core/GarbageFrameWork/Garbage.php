@@ -36,5 +36,5 @@ defined('IS_CLI')                or define('IS_CLI', preg_match("/cli/i", php_sa
 require_once GARBAGE_CORE_PATH . 'App' . CLASS_EXT;
 
 
-
-(new \Core\GarbageFrameWork\Lib\Garbage\App)->run();
+$app = new \Core\GarbageFrameWork\Lib\Garbage\App;
+$app->run();

@@ -54,7 +54,10 @@
 
 
     function conf($field=null, $value=null){
-        return (new \Core\GarbageFrameWork\Lib\Garbage\Config())->config($field, $value);
+
+        $config = new \Core\GarbageFrameWork\Lib\Garbage\Config();
+
+        return $config->config($field, $value);
     }
 
     /**

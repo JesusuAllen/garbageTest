@@ -30,7 +30,9 @@ class App{
     public function _setAutoload(){
 
         include_once GARBAGE_CORE_PATH . 'AutoLoad' . CLASS_EXT;
-        (new AutoLoad)->_set();
+
+        $autoload = new AutoLoad;
+        $autoload->_set();
     }
 
     public function _setConfig(){
