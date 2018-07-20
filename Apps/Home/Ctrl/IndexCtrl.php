@@ -31,7 +31,8 @@ class IndexCtrl extends Ctrl {
         ];
 
         $this->assign('name', 'llw');
-        $this->display('index/index.html', $list);
+        $this->display();
+//        $this->display('index/index.html', $list);
         p('页面加载成功');
 
         p('配置文件写入：'.conf('dbname', $list['name']));

@@ -26,9 +26,9 @@ defined('APP_COMMON_PATH')      or define('APP_COMMON_PATH', APP_PATH . APP_COMM
 defined('APP_CONFIG_PATH')      or define('APP_CONFIG_PATH', APP_COMMON_PATH . APP_CONFIG_NAME . DS);    //应用配置目录
 defined('APP_VIEW_NAME')        or define('APP_VIEW_NAME', 'View');    //应用视图名
 defined('APP_CTRL_NAME')        or define('APP_CTRL_NAME', 'Ctrl');    //应用控制器名
-defined('APP_DEF_MODULE')       or define('APP_DEF_MODULE', 'Home');   //应用默认访问模块
-defined('APP_DEF_CTRL')         or define('APP_DEF_CTRL', 'Index');   //应用默认访问控制器
-defined('APP_DEF_FUNC')         or define('APP_DEF_FUNC', 'index');   //应用默认访问方法
+//defined('APP_DEF_MODULE')       or define('APP_DEF_MODULE', 'Home');   //应用默认访问模块
+//defined('APP_DEF_CTRL')         or define('APP_DEF_CTRL', 'Index');   //应用默认访问控制器
+//defined('APP_DEF_FUNC')         or define('APP_DEF_FUNC', 'index');   //应用默认访问方法
 
 defined('IS_CLI')                or define('IS_CLI', preg_match("/cli/i", php_sapi_name()) ? true : false); //是否是CLI模式
 

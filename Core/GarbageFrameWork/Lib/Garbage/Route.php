@@ -51,11 +51,11 @@ class Route{
             }
 
             //如果没有传模块则使用默认定义的模块
-            $this->module = isset( $pathArr[0] ) ? $pathArr[0] : APP_DEF_MODULE;
+            $this->module = isset( $pathArr[0] ) ? $pathArr[0] : conf('app_def_module');
             //如果没有传控制器则使用默认定义的模块
-            $this->ctrl   = isset( $pathArr[1] ) ? $pathArr[1] : APP_DEF_CTRL;
+            $this->ctrl   = isset( $pathArr[1] ) ? $pathArr[1] : conf('app_def_ctrl');
             //如果没有传方法则使用默认定义的方法
-            $this->func   = isset( $pathArr[2] ) ? $pathArr[2] : APP_DEF_FUNC;
+            $this->func   = isset( $pathArr[2] ) ? $pathArr[2] : conf('app_def_func');
 
             unset($pathArr[0], $pathArr[1], $pathArr[2]);
 
@@ -69,12 +69,14 @@ class Route{
                 }
             }
         } else {
-            $this->module = APP_DEF_MODULE;
-            $this->ctrl   = APP_DEF_CTRL;
-            $this->func   = APP_DEF_FUNC;
+            $this->module = conf('app_def_module');
+            $this->ctrl   = conf('app_def_ctrl');
+            $this->func   = conf('app_def_func');
         }
         //转换首字母大写
-        define('APP_CURRENT_MODULE', ucfirst($this->module));
+        conf('app_def_module', ucfirst($this->module));
+        conf('app_def_ctrl', ucfirst($this->ctrl));
+        conf('app_def_func', $this->func);
     }
 
 
