@@ -1,2 +1,2 @@
 # garbageTest
-测试garbage框架
+测试GarbageFrameWork
