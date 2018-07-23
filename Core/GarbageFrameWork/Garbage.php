@@ -30,8 +30,6 @@ defined('APP_CTRL_NAME')        or define('APP_CTRL_NAME', 'Ctrl');    //应用�
 //defined('APP_DEF_CTRL')         or define('APP_DEF_CTRL', 'Index');   //应用默认访问控制器
 //defined('APP_DEF_FUNC')         or define('APP_DEF_FUNC', 'index');   //应用默认访问方法
 
-defined('IS_CLI')                or define('IS_CLI', preg_match("/cli/i", php_sapi_name()) ? true : false); //是否是CLI模式
-
 //引入框架核心文件
 require_once GARBAGE_CORE_PATH . 'App' . CLASS_EXT;
 

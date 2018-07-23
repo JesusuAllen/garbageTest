@@ -11,20 +11,21 @@
      * @param $var
      */
     // TODO  1.要输出的好看一些, 2.cli模式判断写的太丑了
-    function p( $var ){
+    function p(){
 
-        if( !IS_CLI ) echo '<style> *{ font-size: 20px; } </style><pre>';
+        foreach ( func_get_args() as $k => $var ){
+            if( !IS_CLI ) echo '<style> *{ font-size: 20px; } </style><pre>';
 
-        if( is_array($var) || is_object($var) ){
-            print_r($var);
-        } else if( is_string($var) ) {
-            echo $var;
-        } else {
-            var_dump($var);
+            if( is_array($var) || is_object($var) ){
+                print_r($var);
+            } else if( is_string($var) ) {
+                echo $var;
+            } else {
+                var_dump($var);
+            }
+
+            if( !IS_CLI ) echo '<br /></pre>';
         }
-
-        if( !IS_CLI ) echo '<br /></pre>';
-
     }
 
     /**

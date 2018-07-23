@@ -14,6 +14,9 @@ header("Content-type: text/html; charset=utf-8");
 //检查是否是本框架支持的php版本
 if( version_compare(PHP_VERSION,'5.6.0','<') ) exit('仅支持php5.6.0以上版本');
 
+//是否是CLI模式
+define('IS_CLI', preg_match("/cli/i", php_sapi_name()) ? true : false);
+
 //系统调试设置
 define('APP_DEBUG',true);
 
