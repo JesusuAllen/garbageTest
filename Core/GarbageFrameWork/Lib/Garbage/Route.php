@@ -47,7 +47,7 @@ class Route{
                         p('找不到该模块：'.$clonePathArr[$i+1]);exit;
                     }
                 }
-
+                p('找不到该模块：'.$clonePathArr[0]);exit;
             }
 
             //如果没有传模块则使用默认定义的模块

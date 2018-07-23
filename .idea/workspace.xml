@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e93ed82-4c4e-40b4-b2e0-f3c701c31ae1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php" afterPath="$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php" />
-      <change beforePath="$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php" afterPath="$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php" afterPath="$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="432">
               <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
                 <element signature="e#6#106#0#PHP" expanded="true" />
@@ -31,18 +29,28 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Garbage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Garbage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="548">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Route.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -73,10 +81,10 @@
         <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Config/config.php" />
         <option value="$PROJECT_DIR$/Apps/Home/Ctrl/IndexCtrl.php" />
         <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Ctrl.php" />
-        <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php" />
         <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php" />
+        <option value="$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php" />
       </list>
     </option>
   </component>
@@ -108,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +129,37 @@
               <item name="garbageTest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Apps" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="garbageTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garbageTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garbageTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garbageTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GarbageFrameWork" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garbageTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garbageTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GarbageFrameWork" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garbageTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garbageTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GarbageFrameWork" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Garbage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,11 +199,12 @@
       <workItem from="1532052737316" duration="1953000" />
       <workItem from="1532073099780" duration="308000" />
       <workItem from="1532311039889" duration="852000" />
+      <workItem from="1532313796903" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12830000" />
+    <option name="totallyTimeSpent" value="13033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -206,6 +241,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -346,13 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -377,7 +431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="432">
           <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="e#6#106#0#PHP" expanded="true" />
@@ -387,16 +441,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Garbage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="548">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/GarbageFrameWork/Lib/Garbage/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="51" />
           <folding />
         </state>
       </provider>
